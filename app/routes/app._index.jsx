@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { json } from "@remix-run/node";
+import { json } from "@vercel/remix";
 import { useActionData, useNavigation, useSubmit } from "@remix-run/react";
 import {
   Page,

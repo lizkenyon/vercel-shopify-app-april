@@ -21,14 +21,15 @@
   "type": "module",
   "dependencies": {
     "@prisma/client": "^5.11.0",
-    "@remix-run/dev": "^2.7.1",
-    "@remix-run/node": "^2.7.1",
-    "@remix-run/react": "^2.7.1",
-    "@remix-run/serve": "^2.7.1",
+    "@remix-run/dev": "2.9.0",
+    "@remix-run/node": "2.9.0",
+    "@remix-run/react": "2.9.0",
+    "@remix-run/serve": "2.9.0",
     "@shopify/polaris": "^12.0.0",
     "@shopify/shopify-api": "^10.0.0",
     "@shopify/shopify-app-remix": "^2.8.2",
     "@shopify/shopify-app-session-storage-prisma": "^4.0.5",
+    "@vercel/remix": "^2.9.0",
     "isbot": "^5.1.0",
     "prisma": "^5.11.0",
     "react": "^18.2.0",
@@ -36,7 +37,7 @@
     "vite-tsconfig-paths": "^4.3.1"
   },
   "devDependencies": {
-    "@remix-run/eslint-config": "^2.7.1",
+    "@remix-run/eslint-config": "2.9.0",
     "@shopify/api-codegen-preset": "^0.0.7",
     "@shopify/app-bridge-types": "^0.0.11",
     "@types/eslint": "^8.40.0",

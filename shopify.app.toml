@@ -3,7 +3,7 @@
 client_id = "4654bb92da30942909c9ed5af58fad8e"
 name = "consolidated-demand-app"
 handle = "consolidated-demand-app-11"
-application_url = "https://sussex-amenities-queens-evanescence.trycloudflare.com"
+application_url = "https://absence-wines-ti-brain.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://sussex-amenities-queens-evanescence.trycloudflare.com/auth/callback",
-  "https://sussex-amenities-queens-evanescence.trycloudflare.com/auth/shopify/callback",
-  "https://sussex-amenities-queens-evanescence.trycloudflare.com/api/auth/callback"
+  "https://absence-wines-ti-brain.trycloudflare.com/auth/callback",
+  "https://absence-wines-ti-brain.trycloudflare.com/auth/shopify/callback",
+  "https://absence-wines-ti-brain.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
