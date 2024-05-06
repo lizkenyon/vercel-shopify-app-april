@@ -2,7 +2,7 @@
   "name": "consolidated-demand-app",
   "private": true,
   "scripts": {
-    "build": "npm install & remix vite:build",
+    "build": "remix vite:build",
     "dev": "shopify app dev",
     "config:link": "shopify app config link",
     "generate": "shopify app generate",
