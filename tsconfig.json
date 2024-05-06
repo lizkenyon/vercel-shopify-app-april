@@ -12,9 +12,9 @@
     "allowJs": true,
     "resolveJsonModule": true,
     "jsx": "react-jsx",
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "target": "ES2022",
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "target": "ES2021",
     "baseUrl": ".",
     "paths": {
       "~/*": ["./app/*"]
