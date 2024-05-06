@@ -6,6 +6,8 @@ import polarisStyles from "@shopify/polaris/build/esm/styles.css?url";
 import { authenticate } from "../shopify.server";
 
 export const links = () => [{ rel: "stylesheet", href: polarisStyles }];
+const fs = require('fs');
+fs.readFile('node_modules/@shopify/shopify-app-remix/dist/esm/react/components/AppProvider/AppProvider.mjs');
 
 export const loader = async ({ request }) => {
   await authenticate.admin(request);
