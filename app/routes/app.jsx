@@ -8,7 +8,8 @@ import { authenticate } from "../shopify.server";
 export const links = () => [{ rel: "stylesheet", href: polarisStyles }];
 const fs = require('fs');
 fs.readFile('node_modules/@shopify/shopify-app-remix/dist/esm/react/components/AppProvider/AppProvider.mjs');
-
+fs.readFile('/var/task/node_modules/@shopify/polaris/locales/en.json');
+fs.readFile('/node_modules/@shopify/polaris/locales/en.json');
 export const loader = async ({ request }) => {
   await authenticate.admin(request);
 
